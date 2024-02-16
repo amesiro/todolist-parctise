@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { AiOutlineDelete } from 'react-icons/ai';
 import { BsCheckLg } from 'react-icons/bs';
+import { FaRegEdit } from "react-icons/fa";
 
 
 function App() {
@@ -141,7 +142,7 @@ function App() {
                 <div>
                   <AiOutlineDelete className='icon' onClick={() => handleDeleteTodo(index)} title="Delete?" />
                   <BsCheckLg className='check-icon' onClick={() => handleComplete(index)} title="complete?" />
-                  <button className='edit-btn' onClick={() => handleEditTodo(index)}>Edit</button> {/* Add edit button */}
+                  <FaRegEdit className='edit-icon' onClick={() => handleEditTodo(index)} /> 
                 </div>
               </div>
             )

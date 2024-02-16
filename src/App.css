@@ -126,14 +126,20 @@ h1{
 }
 
 .check-icon{
-  font-size: 25px;
+  font-size: 35px;
   margin-left: 10px;
   color: rgb(0,230,122);
-
+  cursor: pointer;
 }
 
 .check-icon:hover{
   color: rgb(0, 196, 106);
+}
+
+.edit-icon{
+  font-size: 32px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 /* .App {
